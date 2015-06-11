@@ -1,0 +1,446 @@
+<!--All Tags of HTML-->
+
+<!DOCTYPE html>
+
+<a href="http://www.trantor.com">Trantor</a>
+
+The <abbr title="Merchant Master Group">MMG</abbr> of Trantor.
+
+Can I get this <acronym title="as soon as possible">ASAP</acronym>?
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<img src="planets.gif" width="145" height="126" alt="Planets"
+usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+
+<article>
+  <h1>Google Chrome</h1>
+  <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+<audio controls>
+
+  <source src="tumblr_lvwdkdgLWE1qf1aiio1.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+<!--The <base> tag specifies the base URL/target for all relative URLs in a document.-->
+The <base> tag specifies the base URL/target for all relative URLs in a document.
+<head>
+<base href="http://www.w3schools.com/images/" target="_blank">
+</head>
+<body>
+<img src="stickman.gif" width="24" height="39" alt="Stickman">
+<a href="http://www.w3schools.com">W3Schools</a>
+</body>
+
+
+<!--Not supported in HTML5. Use CSS instead.
+Specifies a default color, size, and font for all text in a document-->
+<head>
+<basefont color="red" size="5">
+</head>
+
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+
+<!--Isolates a part of text that might be formatted in a different direction from other text outside it This element is useful when embedding user-generated content with an unknown directionality.-->
+<ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+<!--he <bdo> tag is used to override the current text direction.-->
+<bdo dir="rtl">
+This text will go right-to-left.
+
+<p><big>Bigger text</big></p>
+
+<!--The <blockquote> tag specifies a section that is quoted from another source.
+Browsers usually indent <blockquote> elements.-->
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+</bdo>
+
+<body>
+The content of the document......
+</body>
+
+<!--The <canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+The <canvas> tag is only a container for graphics, you must use a script to actually draw the graphics.-->
+<canvas id="myCanvas"></canvas>
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 80);
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<!--The <cite> tag defines the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.).
+Note: A person's name is not the title of a work.-->
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<code>A piece of computer code</code>
+
+<!--The <col> tag specifies column properties for each column within a <colgroup> element.
+The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+-->
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<!--The <details> tag can be used to create an interactive widget that the user can open and close. Any sort of content can be put inside the <details> tag.-->
+<details>
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+<!--The <dialog> tag defines a dialog box or window.
+The <dialog> element makes it easy to create popup dialogs and modals on a web page.-->
+<table>
+<tr>
+  <th>January <dialog open>This is an open dialog window</dialog></th>
+  <th>February</th>
+  <th>March</th>
+</tr>
+<tr>
+  <td>31</td>
+  <td>28</td>
+  <td>31</td>
+</tr>
+</table>
+
+<dir>
+  <li>html</li>
+  <li>xhtml</li>
+  <li>css</li>
+</dir>
+
+<em>	Renders as emphasized text
+<strong> Defines important text
+<code>	Defines a piece of computer code
+<samp>	Defines sample output from a computer program
+<kbd>	Defines keyboard input
+<var>	Defines a variable
+
+<!--The <embed> tag defines a container for an external application or interactive content (a plug-in).-->
+<embed src="helloworld.swf">
+
+<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text"><br>
+    Email: <input type="text"><br>
+    Date of birth: <input type="text">
+  </fieldset>
+</form>
+
+<figure>
+  <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
+
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
+<frameset cols="25%,*,25%">
+  <frame src="frame_a.htm">
+  <frame src="frame_b.htm">
+  <frame src="frame_c.htm">
+<noframes>Sorry, your browser does not handle frames!</noframes>
+</frameset>
+
+<!--The <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.-->
+<iframe src="http://www.w3schools.com"></iframe>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+The <keygen> tag specifies a key-pair generator field used for forms.
+
+<!--When the form is submitted, the private key is stored locally, and the public key is sent to the server.-->
+<form action="demo_keygen.asp" method="get">
+  Username: <input type="text" name="usr_name">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+
+<!--Click on one of the text labels to toggle the related control:-->
+<form action="demo_form.asp">
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" value="female"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!--The <main> tag specifies the main content of a document.-->
+<main>
+  <h1>Web Browsers</h1>
+  <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+
+  <article>
+    <h1>Google Chrome</h1>
+    <p>Google Chrome is a free, open-source web browser developed by Google,
+    released in 2008.</p>
+  </article>
+
+  <article>
+    <h1>Internet Explorer</h1>
+    <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+  </article>
+
+  <article>
+    <h1>Mozilla Firefox</h1>
+    <p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+  </article>
+</main>
+
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<!--The <menu> tag defines a list/menu of commands.
+The <menu> tag is used for context menus, toolbars and for listing form controls and commands.
+-->
+<menu type="context" id="mymenu">
+  <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png">
+  </menuitem>
+  <menu label="Share on...">
+    <menuitem label="Twitter" icon="ico_twitter.png"
+    onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);">
+    </menuitem>
+    <menuitem label="Facebook" icon="ico_facebook.png"
+    onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);">
+    </menuitem>
+  </menu>
+  <menuitem label="Email This Page"
+  onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+</menu>
+
+<!--Metadata is data (information) about data.
+The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.
+Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
+The metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
+ -->
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Hege Refsnes">
+</head>
+
+<!--The <meter> tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.
+Examples: Disk usage, the relevance of a query result, etc.
+-->
+<meter value="2" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">60%</meter>
+
+<!--The <nav> tag defines a set of navigation links.
+Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
+Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.-->
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+
+<!--The <object> tag defines an embedded object within an HTML document. Use this element to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.
+You can also use the <object> tag to embed another webpage into your HTML document.
+You can use the <param> tag to pass parameters to plugins that have been embedded with the <object> tag.-->
+<object width="400" height="400" data="helloworld.swf"></object>
+
+
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+<!--The <output> tag represents the result of a calculation (like one performed by a script).-->
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+  <input type="range" id="a" value="50">100
+  +<input type="number" id="b" value="50">
+  =<output name="x" for="a b"></output>
+</form>
+
+<!--The <param> tag is used to define parameters for plugins embedded with an <object> element.
+Tip: HTML 5 also includes two new elements for playing audio or video: The <audio> and <video> tags.-->
+<object data="horse.wav">
+  <param name="autoplay" value="true">
+</object>
+
+<!--The <pre> tag defines preformatted text.
+Text in a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.-->
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<progress value="22" max="100"></progress>
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<!--The <rp> tag defines what to show if a browser does NOT support ruby annotations.
+Ruby annotations are used for East Asian typography, to show the pronunciation of East Asian characters.
+Use the <rp> tag together with the <ruby> and the <rt> tags: The <ruby> element consists of one or more characters that needs an explanation/pronunciation, and an <rt> element that gives that information, and an optional <rp> element that defines what to show for browsers that not support ruby annotations.-->
+<ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby>
+
+<p><s>My car is blue.</s></p>
+<p>My new car is silver.</p>
+
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+</section>
+
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+
+<table>
+  <thead>
+  <tr>
+     <th>Month</th>
+     <th>Savings</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td>Sum</td>
+      <td>$180</td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+     <td>January</td>
+     <td>$100</td>
+  </tr>
+  <tr>
+      <td>February</td>
+      <td>$80</td>
+  </tr>
+  </tbody>
+</table>
+
+<!--The <time> tag defines a human-readable date/time.
+This element can also be used to encode dates and times in a machine-readable way so that user agents can offer to add birthday reminders or scheduled events to the user's calendar, and search engines can produce smarter search results.-->
+<p>We open at <time>10:00</time> every morning.</p>
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+<!--The <track> tag specifies text tracks for media elements (<audio> and <video>).
+This element is used to specify subtitles, caption files or other files containing text, that should be visible when the media is playing.-->
+<video width="320" height="240" controls>
+  <source src="forrest_gump.mp4" type="video/mp4">
+  <source src="forrest_gump.ogg" type="video/ogg">
+  <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+
+<!--The <video> tag specifies video, such as a movie clip or other video streams.
+Currently, there are 3 supported video formats for the <video> element: MP4, WebM, and Ogg:-->
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<!--The <wbr> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.
+Tip: When a word is too long, or you are afraid that the browser will break your lines at the wrong place, you can use the <wbr> element to add word break opportunities.-->
+<p>
+To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
+</p>
